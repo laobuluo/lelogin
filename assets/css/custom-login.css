@@ -1,0 +1,55 @@
+/**
+ * LeLogin 自定义登录页面样式
+ * 基础样式，大部分样式通过内联CSS动态生成
+ */
+
+/* 确保登录页面响应式 */
+@media screen and (max-width: 782px) {
+    #login {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+/* 登录表单动画效果 */
+#loginform,
+#registerform,
+#lostpasswordform {
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* 按钮过渡效果 */
+#wp-submit,
+.button-primary {
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 输入框样式增强 */
+#loginform input[type="text"],
+#loginform input[type="password"],
+#loginform input[type="email"] {
+    transition: border-color 0.3s ease;
+}
+
+#loginform input[type="text"]:focus,
+#loginform input[type="password"]:focus,
+#loginform input[type="email"]:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+/* Logo动画 */
+#login h1 a,
+.login h1 a {
+    transition: opacity 0.3s ease;
+}
+
+#login h1 a:hover,
+.login h1 a:hover {
+    opacity: 0.8;
+}
+

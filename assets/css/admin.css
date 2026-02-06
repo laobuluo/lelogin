@@ -1,0 +1,90 @@
+/**
+ * LeLogin 管理后台样式
+ */
+
+.lelogin-settings-container {
+    margin-top: 20px;
+}
+
+.lelogin-tabs {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.lelogin-tabs .nav-tab-wrapper {
+    border-bottom: 1px solid #ccd0d4;
+    margin: 0;
+    padding: 0;
+}
+
+.lelogin-tabs .tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.lelogin-tabs .tab-content.active {
+    display: block;
+}
+
+.lelogin-tabs .tab-content h2 {
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.lelogin-upload-button {
+    margin-left: 10px;
+}
+
+.lelogin-preview {
+    margin-top: 10px;
+}
+
+.lelogin-preview img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table .color-picker {
+    width: 100px;
+}
+
+/* 插件启用区域样式 */
+.lelogin-enable-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lelogin-enable-section h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* 禁用状态样式 */
+#lelogin-tabs-container.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+    position: relative;
+}
+
+#lelogin-tabs-container.disabled::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
