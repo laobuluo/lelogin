@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: LeLogin - 自定义登录界面美化
- * Plugin URI: https://www.lezaiyun.com/1070.html
+ * Plugin URI: https://www.laojiang.me/7200.html
  * Description: 一款强大的WordPress登录界面自定义美化插件，允许您完全自定义登录页面的外观和样式。
  * Version: 1.0.0
  * Author: 老蒋和他的伙伴们
- * Author URI: https://www.lezaiyun.com
+ * Author URI: https://www.laojiang.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: lelogin
